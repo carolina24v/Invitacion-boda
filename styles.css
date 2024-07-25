@@ -1,78 +1,86 @@
 body {
-    font-family: 'Arial, sans-serif';
-    background-color: #f7f3e9;
+    font-family: 'Times New Roman', serif;
+    background-color: #f8f5f0;
     margin: 0;
     padding: 0;
 }
 
 .invitation-container {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 700px;
+    margin: 20px auto;
     background-color: #ffffff;
-    border: 2px solid #cccccc;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    border: 5px solid #d7d0c7;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
 }
 
 .invitation-header {
-    background-color: #d4af37;
+    background-image: url('images/header-background.jpg');
+    background-size: cover;
     color: #ffffff;
-    padding: 20px;
-    border-radius: 10px 10px 0 0;
-    text-align: center;
+    padding: 30px 20px;
+}
+
+.invitation-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .couple-section {
-    text-align: center;
     padding: 20px;
+    background-color: #f3e9dc;
 }
 
 .couple-section img {
-    max-width: 100%;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
+    border: 5px solid #d7d0c7;
 }
 
 .couple-section h2 {
-    font-size: 2em;
+    font-size: 2.5em;
     margin: 10px 0;
-    color: #333333;
+    color: #635d56;
 }
 
 .details-section, .rsvp-section {
     padding: 20px;
-    border-bottom: 1px solid #cccccc;
 }
 
 .details-section h3, .rsvp-section h3 {
-    color: #d4af37;
-    font-size: 1.5em;
+    color: #b27d60;
+    font-size: 2em;
     margin-bottom: 10px;
 }
 
 .details-section p, .rsvp-section p {
-    font-size: 1em;
-    color: #333333;
+    font-size: 1.2em;
+    color: #635d56;
 }
 
 .rsvp-button {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #d4af37;
+    padding: 12px 25px;
+    background-color: #b27d60;
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 10px;
-    font-size: 1em;
+    margin-top: 15px;
+    font-size: 1.2em;
 }
 
 .rsvp-button:hover {
-    background-color: #b08d2e;
+    background-color: #9c694f;
 }
 
 .invitation-footer {
-    text-align: center;
-    padding: 20px;
-    color: #333333;
-    font-size: 0.9em;
+    background-color: #f3e9dc;
+    padding: 15px;
+    color: #635d56;
+    font-size: 1em;
 }
