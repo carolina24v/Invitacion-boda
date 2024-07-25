@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial, sans-serif';
+    background-color: #f7f3e9;
+    margin: 0;
+    padding: 0;
+}
+
+.invitation-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.invitation-header {
+    background-color: #d4af37;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.couple-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.couple-section img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.couple-section h2 {
+    font-size: 2em;
+    margin: 10px 0;
+    color: #333333;
+}
+
+.details-section, .rsvp-section {
+    padding: 20px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.details-section h3, .rsvp-section h3 {
+    color: #d4af37;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.details-section p, .rsvp-section p {
+    font-size: 1em;
+    color: #333333;
+}
+
+.rsvp-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d4af37;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.rsvp-button:hover {
+    background-color: #b08d2e;
+}
+
+.invitation-footer {
+    text-align: center;
+    padding: 20px;
+    color: #333333;
+    font-size: 0.9em;
+}
